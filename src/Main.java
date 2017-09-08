@@ -29,7 +29,7 @@ public class Main {
             sb.append("\",\"\");\n");
 
             for (Ingredient i : r.getIngredients()) {
-                sb.append("INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(");
+                sb.append("INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(");
                 sb.append(recipedId+",NULL,");
                 String test = i.getQuantity().replaceAll("\u00A0"," ");
                 test = test.trim();
