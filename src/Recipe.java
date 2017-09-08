@@ -6,9 +6,9 @@ import java.util.ArrayList;
 public class Recipe {
     public  Recipe()
     {
-        setIngredients(new ArrayList<>());
-        setInstructions(new ArrayList<>());
-        setNutritions(new ArrayList<>());
+        setIngredients(new ArrayList<Ingredient>());
+        setInstructions(new ArrayList<String>());
+        setNutritions(new ArrayList<Nutrition>());
     }
 
     private String title;
