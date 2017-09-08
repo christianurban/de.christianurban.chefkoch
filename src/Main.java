@@ -46,6 +46,8 @@ public class Main {
                     else{
                         unitString = "\"STÜCK\"";
                     }
+                    quantityStr = StringEscapeUtils.escapeHtml4(quantityStr);
+                    unitString = StringEscapeUtils.escapeHtml4(unitString);
                     sb.append(quantityStr+","+unitString+",");
                 }
                 if(quantityArray.length == 2){
@@ -54,6 +56,8 @@ public class Main {
                     if(quantityStr.matches("\\d*\\.?\\d+") && StringUtils.isEmpty(unitStr)){
                         unitStr = "\"STÜCK\"";
                     }
+                    quantityStr = StringEscapeUtils.escapeHtml4(quantityStr);
+                    unitStr = StringEscapeUtils.escapeHtml4(unitStr);
                     sb.append(quantityStr+",\""+unitStr+"\",");
                 }
                 sb.append(("\""+i.getName()+"\""));
