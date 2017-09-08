@@ -44,17 +44,16 @@ public class Main {
                         quantityStr = "NULL";
                     }
                     else{
-                        unitString = "\"STÜCK\"";
+                        unitString = "\""+StringEscapeUtils.escapeHtml4("STÜCK")+"\"";
                     }
                     quantityStr = StringEscapeUtils.escapeHtml4(quantityStr);
-                    unitString = StringEscapeUtils.escapeHtml4(unitString);
                     sb.append(quantityStr+","+unitString+",");
                 }
                 if(quantityArray.length == 2){
                     String quantityStr = quantityArray[0];
                     String unitStr = quantityArray[1];
                     if(quantityStr.matches("\\d*\\.?\\d+") && StringUtils.isEmpty(unitStr)){
-                        unitStr = "\"STÜCK\"";
+                        unitStr = "\"+STÜCK\"";
                     }
                     quantityStr = StringEscapeUtils.escapeHtml4(quantityStr);
                     unitStr = StringEscapeUtils.escapeHtml4(unitStr);
