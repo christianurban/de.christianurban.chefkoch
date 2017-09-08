@@ -60,7 +60,7 @@ public class Main {
                     unitStr = StringEscapeUtils.escapeHtml4(unitStr);
                     sb.append(quantityStr+",\""+unitStr+"\",");
                 }
-                sb.append(("\""+i.getName()+"\""));
+                sb.append(("\""+StringEscapeUtils.escapeHtml4(i.getName())+"\""));
                 sb.append(");\n");
                 System.out.println(i.getQuantity() + " - " + i.getName());
             }

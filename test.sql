@@ -3,13 +3,13 @@ INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,500,"g","K
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,400,"g","Spitzpaprika, rot");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,200,"g","Champignons");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,150,"g","Cherrytomate(n)");
-INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,100,"g","Feta-Käse");
+INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,100,"g","Feta-K&auml;se");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,1,&quot;ST&Uuml;CK&quot;,"Zwiebel(n)");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,6,&quot;ST&Uuml;CK&quot;,"Knoblauchzehe(n)");
-INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Olivenöl");
+INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Oliven&ouml;l");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Meersalz");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Pfeffer");
-INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Kümmel");
+INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"K&uuml;mmel");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Paprikapulver, scharf");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Thymian");
 INSERT INTO ingredient (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Majoran");
