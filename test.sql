@@ -1,0 +1,17 @@
+INSERT INTO recipe (ID,Title,Preparation,ImageUrl) VALUES(2,"Mediterranes Ofengem&uuml;se","Den Ofen auf 200 &deg;C vorheizen. Eine Pfanne mit reichlich gutem Oliven&ouml;l aufsetzen und die gewaschenen und gesch&auml;lten Kartoffeln halbieren und kurz durchschwenken. Die Spitzpaprika entkernen und ebenfalls halbiert kurz hinzugeben. Dann mit den Kr&auml;utern mischen und in eine ofenfeste Form geben. Tomaten vierteln, Champignons halbieren und Feta in W&uuml;rfel schneiden. Zwiebel in Ringe schneiden und Knoblauch nur sch&auml;len (evtl. auch mehr oder weniger Knoblauch nehmen, aber bei dieser Art Zubereitung bleibt kein extremer Knoblauchgeschmack &uuml;brig). Alle Zutaten zu den Kartoffeln und Spitzpaprika in die Form geben, durchr&uuml;hren und mit Meersalz, Pfeffer, K&uuml;mmel und scharfem Paprikapulver w&uuml;rzen. Nun in den Ofen f&uuml;r ca. 30 Minuten (kommt auf die Kartoffelgr&ouml;&szlig;e an). Ab und zu umr&uuml;hren. Dann kann serviert werden.<br/>","");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,500,"g","Kartoffel(n), kleine");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,400,"g","Spitzpaprika, rot");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,200,"g","Champignons");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,150,"g","Cherrytomate(n)");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,100,"g","Feta-Käse");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,1,"STÜCK","Zwiebel(n)");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,6,"STÜCK","Knoblauchzehe(n)");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Olivenöl");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Meersalz");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Pfeffer");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Kümmel");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Paprikapulver, scharf");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Thymian");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Majoran");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Oregano");
+INSERT INTO recipe (RecipeID,ID,Quantity,Unit,Name) VALUES(2,NULL,NULL,NULL,"Rosmarin");
