@@ -17,5 +17,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="jsoup-1.10.3" level="project" />
+    <orderEntry type="library" name="commons-text-1.1" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.6" level="project" />
   </component>
 </module>
